@@ -4,6 +4,8 @@ import torch
 
 app = Flask(__name__)
 
+##you can download the model from huggingface and use the path of the model here
+
 MODEL_PATH = "C:/Users/Shubham Kr Mandal/Desktop/llama-1b/LaMini-Flan-T5-248M"
 
 print("🚀 Loading model from:", MODEL_PATH)
